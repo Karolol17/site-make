@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Help In Makeup</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu_titulo">Categorias:</li>
+                        <li class="lista-menu_item">
+                          <a href="#" class="lista-menu_link">Produtos Indicados</a>
+                        </li>
+                        <li class="lista-menu_item">
+                          <a href="#" class="lista-menu_link">Tutorias Make</a>
+                        </li>
+                        <li class="lista-menu_item">
+                          <a href="#" class="lista-menu_link">Passo a Passo</a>
+                        </li>
+                        
+                        <li class="lista-menu_item">
+                          <a href="#" class="lista-menu_link">Dicas</a>
+                        </li>   
+                     </ul>
+               
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuario.svg" alt="Meu usuário" class="container__imagem"></a>
+                
+            </div>
+        </header>
+        <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nosso site oque precisa para aprender a maquiagem perfeita!<p>
+    <input type="search" class="banner_pesquisa" placeholder="Qual é sua dúvida ou dica que gostaria de aprender?">
+        </section>
+<section class="carrossel"> I
+    <h2 class="carrossel_titulo">Nossas dicas 💄</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/make6.svg" alt="Dica sobre iluminador"></div>
+    <div class="swiper-slide"><img src="img/make7.svg" alt="Dica sobre preparação de pele"></div>
+    <div class="swiper-slide"><img src="img/make2.svg" alt="Dica sobre a ordem dos produtos"></div>
+    <div class="swiper-slide"><img src="img/make5.svg" alt="Dica sobre mistura das sombras"></div>
+    <div class="swiper-slide"><img src="img/make4.svg" alt="Dica sobre bronzer"></div>
+    <div class="swiper-slide"><img src="img/make1.svg" alt="Dica sobre bronzer"></div>
+    <div class="swiper-slide"><img src="img/make8.svg" alt="Dica sobre bronzer"></div>
+    <div class="swiper-slide"><img src="img/make3.svg" alt="Dica sobre bronzer"></div>
+    <div class="swiper-slide"><img src="img/make9.svg" alt="Dica sobre bronzer"></div>
+    ...
+  </div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<div class="card">
+  <!-- 1ª linha -->
+  <div class="card__descrição">
+      <!-- 1ª coluna -->
+      <div class="descrição">
+          <h3 class="descrição__titulo">Aqui você encontra...</h3>
+          <h2 class="descrição__titulo-livro">Dicas e conselhos na sua maquiagem</h2> 
+          <p class="descrição__texto">Fique por dentro de tudo acessando nosso site diariamente!</p>
+      </div>
+      <!-- 2ª coluna -->
+      <img src="img/Angular.svg" class="descrição__imagem">
+
+  
+  </div>
+  <!-- 2º linha -->
+  <div class="card__botões">
+      <!-- 1ª coluna -->
+      <ul class="botões">
+          <li class="botões_item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+      </ul>
+      <!-- 2ª coluna -->
+      <a href="#" class="botões__ancora">Agendar lembrete</a>
+  </div>
+</div>
+</section>
+
+<section class="tópicos">
+  <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+   <ul class="tópicos__lista">
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Dicas 2024</a>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Passo a Passo Deliniado</a>
+       </li>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Como passar batom vermelho?</a>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Tutoriais 5 min</a>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Porque usar iluminador?</a>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Tutoriais 30 min</a>
+       </li>
+       <li class="tópicos__item">
+             <a href="#" class="tópicos__link">Borrei, e agora?</a>
+       </li>
+   </ul>
+</section>
+<section class="contato">
+  <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+  <p class="contato__texto">Atualizações de produtos indicados, dicas, tutoriais e muito mais!.</p>
+  <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr />
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Karollyne Vitória de Lima</h2>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script>
+  const swiper = new Swiper('.swiper', {
+   spaceBetween: 10,
+   slidesPerView: 3,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+});
+ </script>
+  </body>
+</html>
